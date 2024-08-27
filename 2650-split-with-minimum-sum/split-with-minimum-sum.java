@@ -21,11 +21,7 @@ class Solution {
             }
         }
 
-        // Convert the strings back to integers
-        int number1 = num1.length() > 0 ? Integer.parseInt(num1.toString()) : 0;
-        int number2 = num2.length() > 0 ? Integer.parseInt(num2.toString()) : 0;
-
         // Return the sum of the two numbers
-        return number1 + number2;
+        return Integer.parseInt(num1.toString()) + Integer.parseInt(num2.toString());
     }
 }
